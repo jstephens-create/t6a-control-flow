@@ -8,3 +8,8 @@
 # Expected: INC-1001 and INC-1004 are logged; INC-1002 and INC-1003 are skipped.
 
 # Stretch: do the other Kata 3 option too.
+
+for aisle in range(1, 5):
+    for shelf in range(1, 4):
+        print(f"A{aisle}-S{shelf}", end=" ")
+    print()
