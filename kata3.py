@@ -9,7 +9,10 @@
 
 # Stretch: do the other Kata 3 option too.
 
-for aisle in range(1, 5):
-    for shelf in range(1, 4):
+total_aisles = 5
+shelves_per_aisle = 4
+
+for aisle in range(1, total_aisles + 1):
+    for shelf in range(1, shelves_per_aisle + 1):
         print(f"A{aisle}-S{shelf}", end=" ")
     print()
