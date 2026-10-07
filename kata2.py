@@ -8,15 +8,18 @@
 
 # Expected: Day 3: Cycle count, Day 5: Scanner audit, Day 15: FULL AUDIT, Day 30: FULL AUDIT
 
-for day in range(1, ):
+cycle_interval = 4
+scanner_interval = 6
 
-    if day % 4 == 0 and day % 6 == 0:
+for day in range(1, 31):
+
+    if day % cycle_interval == 0 and day % scanner_interval == 0:
         print(f"Day {day}: FULL AUDIT")
 
-    elif day % 4 == 0:
+    elif day % cycle_interval == 0:
         print(f"Day {day}: Cycle count")
 
-    elif day % 6 == 0:
+    elif day % scanner_interval == 0:
         print(f"Day {day}: Scanner audit")
 
     else:
