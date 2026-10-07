@@ -11,7 +11,7 @@
 cycle_interval = 4
 scanner_interval = 6
 
-for day in range(1, 31):
+for day in range(1, 36):
 
     if day % cycle_interval == 0 and day % scanner_interval == 0:
         print(f"Day {day}: FULL AUDIT")
