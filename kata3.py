@@ -14,5 +14,5 @@ shelves_per_aisle = 4
 
 for aisle in range(1, total_aisles + 1):
     for shelf in range(1, shelves_per_aisle + 1):
-        print(f"A{aisle}-S{shelf}", end=" ")
+        print(f"AISLE{aisle}-S{shelf}", end=" ")
     print()
